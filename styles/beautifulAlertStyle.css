@@ -1,0 +1,51 @@
+#dialogoverlay {
+  display: none;
+  opacity: .8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+/* style of frame*/
+
+ #dialogbox {  
+  display: none;
+  position: fixed;
+  border-radius: 7px;
+  width: 550px;
+  z-index: 10;
+}
+
+#dialogbox>div { 
+  margin: 8px;
+  text-align: center;
+  word-break: break-all;
+
+}
+
+#dialogbox>div>#dialogboxhead {
+  font-size: 19px;
+  padding: 10px;
+}
+
+#dialogbox>div>#dialogboxbody {
+  background: rgb(2, 24, 54);
+  padding: 20px;
+  display: block;
+}
+
+
+#dialogbox>div>#dialogboxfoot {
+  padding: 10px;
+} 
+
+#dialogbox>div>#dialogboxfoot input {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+#dialogbox>div>#dialogboxfoot input:hover {
+ cursor: pointer;
+}
