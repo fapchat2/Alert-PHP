@@ -10,8 +10,9 @@ require_once 'Interfaces/IPromptable.php';
 use Core\Interfaces\IAlertable;
 use Core\Interfaces\IConfirmable;
 use Core\Interfaces\IPromptable;
+use Core\Interfaces\ITimerable;
 
-class SweetAlert implements IAlertable, IConfirmable, IPromptable
+class SweetAlert implements IAlertable, IConfirmable, IPromptable, ITimerable
 {
 
     function __construct(string $txt, string $title = '', string $dataType = 'html', string $type = 'POST')
