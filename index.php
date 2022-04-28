@@ -11,7 +11,7 @@ use Core\DefaultAlert;
 //  $defaultAlert->prompt('script.php',true);  //работает
 
 
- 
+    
 
 
  
@@ -20,8 +20,6 @@ use Core\DefaultAlert;
 //$beautifulAlert->prompt('script.php','okk'); //работает
 //$beautifulAlert->alert(); //работает
 
-
-//$sweetAlert = new SweetAlert('qewewqwe qeweqwqw wqeqew', 'do you...?'); //работает
 
 
 ?>
