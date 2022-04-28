@@ -28,7 +28,7 @@ use Core\Interfaces\IPromptable;
 class BeautifulAlert implements IAlertable, IConfirmable, IPromptable
 {
 
-    function __construct($txt, $title = 'title',
+    function __construct(string $txt, string $title = 'title',
     string $backgroundOfDialogbox = '#181B2B', string $backgroundOfDialogboxhead = '#000000', 
     string $backgroundOfDialogboxbody = 'rgb(10, 10, 10)', string $backgroundOfDialogboxfoot = '#211818', 
     string $backgroundOfSubmit = '#CCC', string $textColor = '#FFF', 
